@@ -3,7 +3,7 @@ class SomeModule {
         console.log('Hello world!')
     }
 
-    test() {
+    test(): void {
         console.log('TEST');
     }
 }
