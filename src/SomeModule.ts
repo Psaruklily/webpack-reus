@@ -1,5 +1,3 @@
-import './style1.css';
-
 class SomeModule {
     constructor() {
         console.log('Hello world!')

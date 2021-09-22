@@ -2,6 +2,18 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/style1.scss":
+/*!*************************!*\
+  !*** ./src/style1.scss ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./src/style.css":
 /*!***********************!*\
   !*** ./src/style.css ***!
@@ -14,28 +26,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/style1.css":
-/*!************************!*\
-  !*** ./src/style1.css ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
 /***/ "./src/SomeModule.ts":
 /*!***************************!*\
   !*** ./src/SomeModule.ts ***!
   \***************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, exports) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SomeModule = void 0;
-__webpack_require__(/*! ./style1.css */ "./src/style1.css");
 var SomeModule = /** @class */ (function () {
     function SomeModule() {
         console.log('Hello world!');
@@ -100,6 +99,7 @@ var exports = __webpack_exports__;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var SomeModule_1 = __webpack_require__(/*! ./SomeModule */ "./src/SomeModule.ts");
 __webpack_require__(/*! ./style.css */ "./src/style.css");
+__webpack_require__(/*! ./style1.scss */ "./src/style1.scss");
 var instance = new SomeModule_1.SomeModule();
 instance.test();
 console.log('Hello, TypeScript');
